@@ -7,18 +7,42 @@
         <meta name="generator" content="Netbeans IDE 8.2">
         <meta name="author" content="Christopher Louie and Vivian James">
         <meta name="description" content="">
-        
+
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/menustyle.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
         <script src="js/modernizr.custom.js"></script>
     </head>
     <body>
         <div class="container">
             <header class="codrops-header">
-                Hello
+                <h1>Solutions</h1>
+
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'Plant1')">Plant 1</button>
+                    <button class="tablinks" onclick="openCity(event, 'Plant2')">Plant 2</button>
+                    <button class="tablinks" onclick="openCity(event, 'Plant3')">Plant 3</button>
+                </div>
+
+                <div id="Plant1" class="tabcontent">
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
+                </div>
+
+                <div id="Plant2" class="tabcontent">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p> 
+                </div>
+
+                <div id="Plant3" class="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
             </header>
             <nav id="bt-menu" class="bt-menu">
                 <a href="#" class="bt-menu-trigger">
+                    <span></span>
+                    <span></span>
                     <span></span>
                 </a>
                 <ul>
@@ -28,12 +52,11 @@
                     <li><a href="species.html">Species</a></li>
                     <li><a href="references.html">References</a></li>
                 </ul>
-                <ul>
-                </ul>
             </nav>
         </div>
 
         <script src="js/classie.js"></script>
         <script src="js/borderMenu.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
