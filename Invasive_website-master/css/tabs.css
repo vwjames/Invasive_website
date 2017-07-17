@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+.tab-bg{
+  background-image:;
+  display: none;
+  padding-top: 40%;
+  width: 100%;
+
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    z-index: 1;
+    float: left;
+    width: 33.3333%;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+  position: relative;
+    display: none;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    width: 100%;
+    padding-top: 40%;
+    background-image:;
+
+}
+.tabbox{
+  width: 40%;
+  float: right;
+  opacity: 0.75;
+  background-color: #fff7d8;
+  position: absolute;
+  top: 0;
+  left: 60%;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+}
+.tabtext {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  bottom: 5%;
+  right: 5%;
+  opacity: 1.0;
+}
+#Plant1{
+  background-image: url("images/Shovel.jpg");
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

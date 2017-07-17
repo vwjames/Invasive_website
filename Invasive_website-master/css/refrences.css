@@ -1,0 +1,26 @@
+.box{
+  box-sizing: border-box;
+  background-color: #333;
+  width: 90%;
+  margin: 2% 5%;
+  padding: 2%;
+  float: left;
+}
+
+.inside-box{
+width: 100%;
+background-color: #1abc9c;
+padding: 2%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  transition: color;
+  -webkit-transition: color 0.5s;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #97bfb7;
+}
