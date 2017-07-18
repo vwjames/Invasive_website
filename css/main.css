@@ -7,3 +7,7 @@ h1, h2, h3{
     color: white;
     font-family: 'Kurale', serif;
 }
+.caption{
+    color: white;
+    text-align: center;
+}

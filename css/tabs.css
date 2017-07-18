@@ -36,8 +36,6 @@
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s;
     width: 100%;
-    background-image:;
-
 }
 img{
   width: 60%;
@@ -57,7 +55,7 @@ img{
   left: 5%;
   right: 5%;
   bottom: 5%;
-  overflow: scroll;
+  overflow: auto;
 }
 
 @-webkit-keyframes fadeEffect {
@@ -91,7 +89,6 @@ button.accordion.active, button.accordion:hover {
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
    padding: 0 7%;
-   background-color: none;
    display: none;
 }
 
