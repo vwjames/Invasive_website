@@ -1,31 +1,49 @@
 h1{
     color: white;
 }
+
 .outside{
-  box-sizing: border-box;
-  background-color: #333;
-  width: 90%;
-  margin: 5%;
-  padding: 2%;
-  float: left;
+    box-sizing: border-box;
+    background-color: #333;
+    width: 90%;
+    margin: 5%;
+    padding: 1.75%;
+    float: left;
 }
+
 .text-box{
-  float: right;
-  width: 58%;
-  background-color: #1abc9c;
-  margin-left: 2%;
-  padding-top: 40%;
-  position: relative;
-  display: inline-block;
-  overflow-y: scroll;
+    float: right;
+    width: 58%;
+    background-color: #1abc9c;
+    margin-left: 2%;
+    padding-top: 40%;
+    position: relative;
 }
+
 .text{
-position: absolute;
-top: 5%;
-left: 5%;
-bottom: 5%;
-right: 5%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    bottom: 5%;
+    right: 5%;
 }
+
 .slideshow{
-  float: left;
+    float: left;
+    position: relative;
+    left: 6%;
+}
+
+.slider {
+    width: 25%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+    outline: none;
+}
+
+.slick-slide img {
+    width: 100%;
 }

@@ -1,17 +1,9 @@
 /*Main CSS for general styling*/
- @import url('https://fonts.googleapis.com/css?family=Kurale|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Kurale|Roboto');
 *{
     font-family: 'Roboto', sans-serif;
 }
-h1{
-  color: white;
-  font-family: 'Kurale', serif;
-}
-h2{
-  color: white;
-  font-family: 'Kurale', serif;
-
-}
-h3{
-  font-family: 'Kurale', serif;
+h1, h2, h3{
+    color: white;
+    font-family: 'Kurale', serif;
 }
