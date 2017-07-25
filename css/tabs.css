@@ -4,9 +4,8 @@
 
 .tab {
     overflow: hidden;
-    border: 1px solid #6d9165;
-    background-color: #e5f7e1;
     width: 100%;
+    float: right;
 }
 
 .tab button {
@@ -15,7 +14,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 1%;
     transition: 0.3s;
     font-size: 17px;
     z-index: 1;
@@ -23,29 +22,21 @@
     width: 33.3333%;
 }
 
-.tab button:hover {
-    background-color: #9aba93;
-}
-
-.tab button.active {
-    background-color: #6d9165;
-}
-
 .tabcontent {
+    float: right;
     display: none;
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s;
     width: 100%;
 }
-img{
+.tabcontent img{
   width: 60%;
   float: left;
 }
 .tabbox{
   width: 40%;
   float: right;
-  background-color: #9aba93;
-  padding-top: 24%;
+  padding-top: 35%;
   display: inline-block;
   position: relative;
 }
@@ -68,28 +59,115 @@ img{
     to {opacity: 1;}
 }
 
-button.accordion {
-   background-color: #eee;
-   color: #444;
-   cursor: pointer;
-   padding: 2%;
-   width: 100%;
-   text-align: left;
-   border: none;
-   outline: none;
-   transition: 0.4s;
-   margin: 2%;
+.side {
+    float: left;
+    overflow: hidden;
+    width: 10%;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
-   background-color: #ddd;
+.side button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    z-index: 1;
+    float: left;
+    width: 100%;
 }
 
-/* Style the accordion panel. Note: hidden by default */
-div.panel {
-   padding: 0 7%;
-   display: none;
+
+.sidecontent {
+    display: none;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    width: 90%;
+    float:right;
+    padding: 2%;
+}
+.side button img{
+  width: 100%;
+  float: left;
+}
+#dig1 {
+  background-color: #b2815c;
+}
+#dig1 button:hover{
+  background-color: #8e6647;
+}
+#dig1 button.active{
+  background-color: #afa095;
+}
+
+#dig button{
+  background-color: #b2815c;
+}
+#dig button:hover{
+  background-color: #aa7a55;
+}
+#dig button.active{
+  background-color: #8e6647;
+}
+
+#cover1 {
+  background-color: #6d696d;
+}
+#cover1 button:hover{
+  background-color: #474347;
+}
+#cover1 button.active{
+  background-color: #a39ea3;
+}
+
+#cover button{
+  background-color: #6d696d;
+}
+#cover button:hover{
+  background-color: #544f54;
+}
+#cover button.active{
+  background-color: #474347;
+}
+
+#weedkiller1 {
+  background-color: #aeebf2;
+}
+#weedkiller1 button:hover{
+  background-color: #5e959b;
+}
+#weedkiller1 button.active{
+  background-color: #eafdff;
+}
+
+#weedkiller button{
+  background-color: #aeebf2;
+}
+#weedkiller button:hover{
+  background-color: #8cc7ce;
+}
+#weedkiller button.active{
+  background-color: #5e959b;
+}
+
+#bio1 {
+  background-color: #aee2ae;
+}
+#bio1 button:hover{
+  background-color: #82b282;
+}
+#bio1 button.active{
+  background-color: #d7f7d7;
+}
+
+#bio button{
+  background-color: #aee2ae;
+}
+#bio button:hover{
+  background-color: #91c191;
+}
+#bio button.active{
+  background-color: #82b282;
 }
 
 p{
