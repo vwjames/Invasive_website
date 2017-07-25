@@ -1,51 +1,40 @@
+h1{
+    color: white;
+}
+
 .outside{
     box-sizing: border-box;
     background-color: #333;
-    width: 45%;
+    width: 90%;
+    margin: 5%;
     padding: 1.75%;
     float: left;
 }
 
-.other{
-    margin-left: 2%;
-}
-
-.row{
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-}
-
-.col{
-    -webkit-flex: auto;
-    -ms-flex: auto;
-    flex: auto;
-}
-
 .text-box{
-    clear: both;
-    width: 100%;
+    float: right;
+    width: 58%;
     background-color: #1abc9c;
-    margin: 40px auto 0 auto;
-    padding: 2%;
+    margin-left: 2%;
+    padding-top: 50%;
     position: relative;
 }
 
 .text{
-    overflow: auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    bottom: 5%;
+    right: 5%;
+    overflow:auto;
 }
-
-.text h2{
-    margin: 0;
-}
-
 
 .slideshow{
-    margin: 0;
+    float: left;
 }
 
 .slider {
-    width: 45%;
+    width: 40%;
     margin: 2% auto;
 }
 

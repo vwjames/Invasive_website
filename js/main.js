@@ -20,21 +20,21 @@ function openCity(evt, cityName) {
 
 }
 
-var acc = document.getElementsByClassName("accordion");
-var i;
+function openSolution(evt, solution) {
 
-for (i = 0; i < acc.length; i++) {
-   acc[i].onclick = function(){
-       /* Toggle between adding and removing the "active" class,
-       to highlight the button that controls the panel */
-       this.classList.toggle("active");
+    var i, sidecontent, sidelinks;
 
-       /* Toggle between hiding and showing the active panel */
-       var panel = this.nextElementSibling;
-       if (panel.style.display === "block") {
-           panel.style.display = "none";
-       } else {
-           panel.style.display = "block";
-       }
-   }
-} 
+    sidecontent = document.getElementsByClassName("sidecontent");
+    for (i = 0; i < sidecontent.length; i++) {
+        sidecontent[i].style.display = "none";
+    }
+
+    sidelinks = document.getElementsByClassName("sidelinks");
+    for (i = 0; i < sidelinks.length; i++) {
+        sidelinks[i].className = sidelinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(solution).style.display = "block";
+    evt.currentTarget.className += " active";
+
+}
