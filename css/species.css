@@ -1,14 +1,13 @@
-h1{
-    color: white;
-}
-
 .outside{
     box-sizing: border-box;
     background-color: #333;
     width: 45%;
-    margin-left: 2%;
     padding: 1.75%;
     float: left;
+}
+
+.other{
+    margin-left: 2%;
 }
 
 .row{
@@ -16,6 +15,7 @@ h1{
     display: -ms-flex;
     display: flex;
 }
+
 .col{
     -webkit-flex: auto;
     -ms-flex: auto;
@@ -24,24 +24,21 @@ h1{
 
 .text-box{
     clear: both;
-    width: 90%;
+    width: 100%;
     background-color: #1abc9c;
     margin: 40px auto 0 auto;
     padding: 2%;
     position: relative;
 }
 
-.text1, .text2{
+.text{
     overflow: auto;
 }
 
-.text1 h1{
+.text h2{
     margin: 0;
 }
 
-.text2 h1{
-    margin: 0;
-}
 
 .slideshow{
     margin: 0;
