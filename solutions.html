@@ -18,15 +18,26 @@
   <div class="container">
     <header class="codrops-header">
       <h1>Solutions</h1>
+
       <div class="side">
-        <button class="sidelinks" onclick="openSolution(event, 'dig')" id="dig1"><img src="img/Dig_Icon.png"></button>
-        <button class="sidelinks" onclick="openSolution(event, 'cover')" id="cover1"><img src="img/Cover_Icon.png"></button>
-        <button class="sidelinks" onclick="openSolution(event, 'weedkiller')" id="weedkiller1"><img src="img/Weedkiller_Icon.png"></button>
-        <button class="sidelinks" onclick="openSolution(event, 'bio')" id="bio1"><img src="img/Bio_Icon.png"></button>
+        <div id="dig1">
+          <button class="sidelinks" onclick="openSolution(event, 'dig')"><img src="img/Dig_Icon.png"></button>
+        </div>
+        <div id="cover1">
+          <button class="sidelinks" onclick="openSolution(event, 'cover')"><img src="img/Cover_Icon.png"></button>
+        </div>
+        <div id="weedkiller1">
+          <button class="sidelinks" onclick="openSolution(event, 'weedkiller')"><img src="img/Weedkiller_Icon.png"></button>
+        </div>
+        <div id="bio1">
+          <button class="sidelinks" onclick="openSolution(event, 'bio')"><img src="img/Bio_Icon.png"></button>
+        </div>
       </div>
 
       <div id="dig" class="sidecontent" style="background-color: #afa095">
-        <div class="tab" style="border: 1px border: #8e6647 border-style: solid">
+        <h3 id="dig2">Dig</h3>
+
+        <div class="tab" style="border: 2px #473a2e solid;">
           <button class="tablinks" onclick="openCity(event, 'Plant1')" id="defaultOpen">Overview</button>
           <button class="tablinks" onclick="openCity(event, 'Plant2')">Cost</button>
           <button class="tablinks" onclick="openCity(event, 'Plant3')">Effect</button>
@@ -65,7 +76,9 @@
       </div>
 
       <div id="cover" class="sidecontent" style=" background-color:#a39ea3">
-        <div class="tab">
+        <h3 id="cover2">Cover</h3>
+
+        <div class="tab" style="border: 2px #302b30 solid;">
           <button class="tablinks" onclick="openCity(event, 'Plant4')" id="defaultOpen">Overview</button>
           <button class="tablinks" onclick="openCity(event, 'Plant5')">Cost</button>
           <button class="tablinks" onclick="openCity(event, 'Plant6')">Effect</button>
@@ -104,8 +117,9 @@
       </div>
 
       <div id="weedkiller" class="sidecontent" style="background-color: #eafdff">
+        <h3 id="weedkiller2">Weedkiller</h3>
 
-        <div class="tab">
+        <div class="tab" style="border: 2px #274244 solid;">
           <button class="tablinks" onclick="openCity(event, 'Plant7')" id="defaultOpen">Overview</button>
           <button class="tablinks" onclick="openCity(event, 'Plant8')">Cost</button>
           <button class="tablinks" onclick="openCity(event, 'Plant9')">Effect</button>
@@ -144,8 +158,9 @@
         </div>
       </div>
       <div id="bio" class="sidecontent" style="background-color: #d7f7d7">
+        <h3 id="bio2">Replanting</h3>
 
-        <div class="tab">
+        <div class="tab" style="border: 2px #1c3d20 solid;">
           <button class="tablinks" onclick="openCity(event, 'Plant10')" id="defaultOpen">Overview</button>
           <button class="tablinks" onclick="openCity(event, 'Plant11')">Cost</button>
           <button class="tablinks" onclick="openCity(event, 'Plant12')">Effect</button>
@@ -168,7 +183,7 @@
               <h2>Cost</h2>
 
               <p>Assuming you don’t require fencing, the raw plant materials add up to about $4.00 – $10.00 per square meter depending on stock size. Additionally, there is the cost of treatment to the land before the replanting can occur. When combining with the digging method it is often necessary to add some fertilizer to the land so it will be hospitable to such plants. With more shallow-rooted native plants, the mulch method of cover will also be compatible.
-</p>
+              </p>
             </div>
           </div>
         </div>

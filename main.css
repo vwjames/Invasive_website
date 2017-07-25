@@ -1,0 +1,21 @@
+/*Main CSS for general styling*/
+@import url('https://fonts.googleapis.com/css?family=Kurale|Roboto|Bellefair');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2{
+    color: white;
+    font-family: 'Kurale', serif;
+}
+h3{
+  color: black;
+  font-family: 'Kurale', serif;
+  font-size: 30px;
+  padding: 0 2% 2% 2% ;
+  margin: 0;
+
+}
+.caption{
+    color: white;
+    text-align: center;
+}
