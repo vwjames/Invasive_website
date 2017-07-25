@@ -1,5 +1,17 @@
 *{
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+.col{
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
 }
 
 .tab {
@@ -10,7 +22,7 @@
 }
 
 .tab button {
-  font-family: 'Bellefair', serif;
+    font-family: 'Bellefair', serif;
     border: none;
     outline: none;
     cursor: pointer;
@@ -20,6 +32,7 @@
     z-index: 1;
     float: left;
     width: 33.3333%;
+    color: white;
 }
 
 .tabcontent {
@@ -30,23 +43,28 @@
     width: 100%;
 }
 .tabcontent img{
-  width: 60%;
-  float: left;
+    width: 45%;
+    float: left;
 }
+
 .tabbox{
-  width: 40%;
-  float: right;
-  padding-top: 35%;
-  display: inline-block;
-  position: relative;
+    width: 52.5%;
+    float: right;
+    display: inline-block;
+    position: relative;
 }
+
 .tabtext{
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  right: 5%;
-  bottom: 5%;
-  overflow: auto;
+    padding: 2%;
+    padding-right: 3%;
+}
+
+.tabtext h2{
+    margin: 0;
+}
+
+.tabtext p{
+    margin-top: 1%;
 }
 
 @-webkit-keyframes fadeEffect {
@@ -61,7 +79,6 @@
 
 .side {
     float: left;
-    overflow: hidden;
     width: 10%;
 }
 
@@ -82,105 +99,101 @@
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s;
     width: 90%;
-    float:right;
+    float:left;
     padding: 2%;
 }
 .side button img{
-  width: 100%;
-  float: left;
+    width: 100%;
+    float: left;
 }
 #dig2 {
-  color: #473a2e;
+    color: #473a2e;
 }
 #dig1 button{
-  background-color: #b2815c;
+    background-color: #b2815c;
 }
 #dig1 button:hover{
-  background-color: #8e6647;
+    background-color: #8e6647;
 }
 #dig1 button.active{
-  background-color: #afa095;
+    background-color: #afa095;
 }
 
 #dig button{
-  background-color: #b2815c;
+    background-color: #b2815c;
 }
 #dig button:hover{
-  background-color: #aa7a55;
+    background-color: #aa7a55;
 }
 #dig button.active{
-  background-color: #8e6647;
+    background-color: #8e6647;
 }
 
 #cover2{
-  color: #302b30;
+    color: #302b30;
 }
 #cover1 button{
-  background-color: #6d696d;
+    background-color: #6d696d;
 }
 #cover1 button:hover{
-  background-color: #474347;
+    background-color: #474347;
 }
 #cover1 button.active{
-  background-color: #a39ea3;
+    background-color: #a39ea3;
 }
 
 #cover button{
-  background-color: #6d696d;
+    background-color: #6d696d;
 }
 #cover button:hover{
-  background-color: #544f54;
+    background-color: #544f54;
 }
 #cover button.active{
-  background-color: #474347;
+    background-color: #474347;
 }
 
 #weedkiller2{
-  color: #274244;
+    color: #274244;
 }
 #weedkiller1 button{
-  background-color: #aeebf2;
+    background-color: #aeebf2;
 }
 #weedkiller1 button:hover{
-  background-color: #5e959b;
+    background-color: #5e959b;
 }
 #weedkiller1 button.active{
-  background-color: #eafdff;
+    background-color: #eafdff;
 }
 
 #weedkiller button {
-  background-color: #aeebf2;
+    background-color: #aeebf2;
 }
 #weedkiller button:hover{
-  background-color: #8cc7ce;
+    background-color: #8cc7ce;
 }
 #weedkiller button.active{
-  background-color: #5e959b;
+    background-color: #5e959b;
 }
 #bio2{
-  color: #1c3d20;
+    color: #1c3d20;
 }
 
 #bio1 button{
-  background-color: #aee2ae;
+    background-color: #aee2ae;
 }
 #bio1 button:hover{
-  background-color: #82b282;
+    background-color: #82b282;
 }
 #bio1 button.active{
-  background-color: #d7f7d7;
+    background-color: #d7f7d7;
 }
 
 #bio button{
-  background-color: #aee2ae;
+    background-color: #aee2ae;
 }
 #bio button:hover{
-  background-color: #91c191;
+    background-color: #91c191;
 }
 #bio button.active{
-  background-color: #82b282;
-}
-
-p{
-
+    background-color: #82b282;
 }

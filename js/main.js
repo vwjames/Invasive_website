@@ -1,7 +1,7 @@
 //Manin JavaScript file
-function openCity(evt, cityName) {
+var x = 1;
 
-    document.getElementById("defaultOpen").click();
+function openCity(evt, cityName) {
 
     var i, tabcontent, tablinks;
 
@@ -37,4 +37,18 @@ function openSolution(evt, solution) {
     document.getElementById(solution).style.display = "block";
     evt.currentTarget.className += " active";
 
+    if (solution === "dig") {
+        x = 1;
+    } else if (solution === "cover") {
+        x = 2;
+    } else if (solution === "weedkiller") {
+        x = 3;
+    } else if (solution === "bio") {
+        x = 4;
+    }
+    
+    var defaultOpen = document.getElementsByClassName("defaultOpen");
+    defaultOpen[x - 1].click();
 }
+
+document.getElementById("open").click();

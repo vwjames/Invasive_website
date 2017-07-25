@@ -1,26 +1,42 @@
 .box{
-  box-sizing: border-box;
-  background-color: #333;
-  width: 90%;
-  margin: 2% 5%;
-  padding: 2%;
-  float: left;
+    box-sizing: border-box;
+    background-color: #333;
+    width: 45%;
+    margin-left: 2%;
+    padding: 2%;
+    float: left;
 }
 
 .inside-box{
-width: 100%;
-background-color: #1abc9c;
-padding: 2%;
+    background-color: #1abc9c;
+    padding: 5%;
+    height: 100%;
+}
+
+.inside-box h2{
+    margin-top: 0;
 }
 
 a{
-  text-decoration: none;
-  color: white;
-  transition: color;
-  -webkit-transition: color 0.5s;
+    text-decoration: none;
+    color: white;
+    transition: color;
+    -webkit-transition: color 0.5s;
 }
 
 a:hover{
-  text-decoration: none;
-  color: #97bfb7;
+    text-decoration: none;
+    color: #97bfb7;
+}
+
+.row{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    width: 50%;
+}
+.col{
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
 }
