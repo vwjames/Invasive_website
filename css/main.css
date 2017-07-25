@@ -3,15 +3,19 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-h1, h2, h3{
+h1, h2{
     color: white;
     font-family: 'Kurale', serif;
+}
+h3{
+  color: black;
+  font-family: 'Kurale', serif;
+  font-size: 30px;
+  padding: 0 2% 2% 2% ;
+  margin: 0;
+
 }
 .caption{
     color: white;
     text-align: center;
-}
-button{
-  font-family: 'Bellefair' serif;
-
 }

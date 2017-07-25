@@ -6,17 +6,17 @@
     overflow: hidden;
     width: 100%;
     float: right;
+
 }
 
 .tab button {
-    background-color: inherit;
-    float: left;
+  font-family: 'Bellefair', serif;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px;
+    padding: 1%;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 22px;
     z-index: 1;
     float: left;
     width: 33.3333%;
@@ -66,15 +66,14 @@
 }
 
 .side button {
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 17px;
     z-index: 1;
     float: left;
     width: 100%;
+    padding: 5%;
 }
 
 
@@ -90,7 +89,10 @@
   width: 100%;
   float: left;
 }
-#dig1 {
+#dig2 {
+  color: #473a2e;
+}
+#dig1 button{
   background-color: #b2815c;
 }
 #dig1 button:hover{
@@ -110,7 +112,10 @@
   background-color: #8e6647;
 }
 
-#cover1 {
+#cover2{
+  color: #302b30;
+}
+#cover1 button{
   background-color: #6d696d;
 }
 #cover1 button:hover{
@@ -130,7 +135,10 @@
   background-color: #474347;
 }
 
-#weedkiller1 {
+#weedkiller2{
+  color: #274244;
+}
+#weedkiller1 button{
   background-color: #aeebf2;
 }
 #weedkiller1 button:hover{
@@ -140,7 +148,7 @@
   background-color: #eafdff;
 }
 
-#weedkiller button{
+#weedkiller button {
   background-color: #aeebf2;
 }
 #weedkiller button:hover{
@@ -149,8 +157,11 @@
 #weedkiller button.active{
   background-color: #5e959b;
 }
+#bio2{
+  color: #1c3d20;
+}
 
-#bio1 {
+#bio1 button{
   background-color: #aee2ae;
 }
 #bio1 button:hover{
