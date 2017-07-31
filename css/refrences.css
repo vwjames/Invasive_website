@@ -1,14 +1,23 @@
 .box{
-    box-sizing: border-box;
-    background-color: #333;
-    width: 45%;
-    margin-left: 2%;
-    padding: 2%;
-    float: left;
+  box-sizing: border-box;
+  background-color: #49514c;
+  width: 90%;
+  margin: 2% 5%;
+  padding: 2%;
+  float: left;
+}
+.imgbox{
+  box-sizing: border-box;
+  background-color: #49514c;
+  width: 90%;
+  margin: 2% 5%;
+  padding: 2%;
+  float: left;
+
 }
 
 .inside-box{
-    background-color: #1abc9c;
+    background-color: #6e9b8a;
     padding: 5%;
     height: 100%;
 }
@@ -26,14 +35,14 @@ a{
 
 a:hover{
     text-decoration: none;
-    color: #97bfb7;
+    color: #294429;
 }
 
 .row{
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    width: 50%;
+    width: 100%;
 }
 .col{
     -webkit-flex: auto;

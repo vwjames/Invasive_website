@@ -1,6 +1,6 @@
 .outside{
     box-sizing: border-box;
-    background-color: #333;
+    background-color: #49514c;
     width: 45%;
     padding: 1.75%;
     float: left;
@@ -25,7 +25,7 @@
 .text-box{
     clear: both;
     width: 100%;
-    background-color: #1abc9c;
+    background-color: #6e9b8a;
     margin: 40px auto 0 auto;
     padding: 2%;
     position: relative;

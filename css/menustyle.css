@@ -6,7 +6,7 @@
 }
 
 body  {
-    background: #1abc9c;
+    background: #6e9b8a;
 }
 
 .container {
@@ -21,7 +21,7 @@ body  {
     height: 0;
     border-width: 0px;
     border-style: solid;
-    border-color: #333;
+    border-color: #49514c;
     background-color: rgba(0,0,0,0);
     -webkit-transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
     transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
@@ -198,5 +198,5 @@ bt-menu.bt-menu-open ul {
 .bt-menu ul:first-of-type li a:focus,
 .bt-menu ul li a:hover:before,
 .bt-menu ul li a:focus:before {
-    color: #1abc9c;
+    color: #6e9b8a;
 }
