@@ -2,7 +2,6 @@
   box-sizing: border-box;
   background-color: #49514c;
   width: 90%;
-  margin: 2% 5%;
   padding: 2%;
   float: left;
 }
@@ -16,14 +15,37 @@
 
 }
 
+.imgLeft {
+    float: left;
+    padding-right: 2%;
+}
+
+.imgRight {
+    float: right;
+    padding-left: 2%;
+}
+
+#still-creek1 {
+    width: 42%;
+}
+
+#still-creek2 {
+    width: 42%;
+}
+
 .inside-box{
     background-color: #6e9b8a;
-    padding: 5%;
+    padding: 2%;
     height: 100%;
 }
 
 .inside-box h2{
     margin-top: 0;
+}
+
+.problem-text {
+    margin-top: 0;
+    padding: 0;
 }
 
 a{
@@ -36,16 +58,4 @@ a{
 a:hover{
     text-decoration: none;
     color: #294429;
-}
-
-.row{
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    width: 100%;
-}
-.col{
-    -webkit-flex: auto;
-    -ms-flex: auto;
-    flex: auto;
 }
