@@ -46,7 +46,7 @@ function openSolution(evt, solution) {
     } else if (solution === "bio") {
         x = 4;
     }
-    
+
     var defaultOpen = document.getElementsByClassName("defaultOpen");
     defaultOpen[x - 1].click();
 }

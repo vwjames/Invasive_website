@@ -9,6 +9,27 @@ $(document).ready(function () {
         fade: true,
         arrows: false,
         cssEase: 'linear',
-        infinite: true,
+        infinite: true
     });
+
+    textBoxResize();
+
 });
+
+let textBoxResize = function (event) {
+    if ($(window).width() > 750) {
+        let textbox1 = $('#knotweed').height();
+        $('#hogweed').height(textbox1);
+    } else {
+        $('#hogweed').css('height', 'initial');
+    }
+
+    $(window).resize(function () {
+        if ($(window).width() > 750) {
+            let textbox1 = $('#knotweed').height();
+            $('#hogweed').height(textbox1);
+        } else {
+            $('#hogweed').css('height', 'initial');
+        }
+    });
+};

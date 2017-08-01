@@ -10,18 +10,6 @@
     margin-left: 2%;
 }
 
-.row{
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-}
-
-.col{
-    -webkit-flex: auto;
-    -ms-flex: auto;
-    flex: auto;
-}
-
 .text-box{
     clear: both;
     width: 100%;
@@ -37,6 +25,15 @@
 
 .text h2{
     margin: 0;
+}
+
+.text p {
+    margin-bottom: 0;
+}
+
+.pc {
+    display: inline;
+    color: transparent;
 }
 
 
@@ -56,4 +53,23 @@
 
 .slick-slide img {
     width: 100%;
+}
+
+@media screen and (max-width: 750px){
+    .outside{
+        width: 100%;
+    }
+
+    .other{
+        margin-left: 0;
+        margin-top: 5%;
+    }
+    
+    .slider {
+        width: 75%;
+    }
+    
+    .pc {
+        display: none;
+    }
 }
